@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.css'
 
-export const BeerCell = (props) => {
+const BeerCell = (props) => {
   return (
     <div
       className={styles.cell_outer_wrapper}
@@ -19,3 +19,5 @@ export const BeerCell = (props) => {
     </div>
   );
 }
+
+export default BeerCell;

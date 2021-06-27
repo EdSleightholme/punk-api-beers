@@ -1,5 +1,5 @@
 import React from "react";
-import { BeerCell } from "./BeerCell";
+import BeerCell from "./BeerCell";
 import styles from './styles.module.css'
 
 const BeerTable = (props) => {

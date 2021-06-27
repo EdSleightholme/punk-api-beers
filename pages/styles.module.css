@@ -74,3 +74,39 @@
   font-size: x-large;
   font-weight: bold;
 }
+
+.modal_outer {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.modal_content {
+  background-color: #8e8e8e;
+  margin: 10% auto;
+  border: 3px solid black;
+  width: 80%;
+  max-width: 80%;
+  height: 80%;
+  max-height: 65%;
+  border-radius: 1rem;
+  }
+
+.modal_close_button{
+  width: 2rem;
+  height: 1rem;
+  border-radius: 2rem;
+  justify-items: center;
+  float: right;
+  color: black;
+  font-size: 2rem;
+}
+
+.modal_close_button:hover{
+   cursor: pointer;
+}
