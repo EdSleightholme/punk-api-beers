@@ -24,19 +24,19 @@ Displays beers from the api using the design. When a beer is clicked on it displ
 
 ### index.js
 I converted this file so that it would act as a central hub that would manage and store all the data on the web page.
-Fetches data from the api very time the page is loaded.
+Fetches data from the api every time the page is loaded.
 
 ### api_caller.js
-Stores the method that calls the api and filters out information that is not used 
+Stores the method that calls the api and filters out information that is not used in the application.
 
 ### BeerCell.js
 Takes a single beer and produces the grid cell that appears on the main page
 
 ### BeerDetails.js
-Takes a beer and displays all the info about it on a full screen scale
+Takes a single beer and displays all the info about it
 
 ### BeerTable.js
-Takes in a array of beers and displays them in a grid format made of BeerCell component's.
+Takes in a array of beers and displays them in a grid format made of BeerCell component's
 
 ### Modal.js
 To show display its children in modal 
