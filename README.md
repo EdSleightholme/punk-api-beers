@@ -1,6 +1,10 @@
 # PUNK API PROJECT
 
-## Instructions
+## Instructions To Run Code
+
+Go to project root file in command line and run `npm i` and then `npm run dev` then go to `http://localhost:3000/` in your browser 
+
+To Run tests run `npm run test`
 
 ### The project
 
